@@ -10,7 +10,7 @@ public class VacInterface {
     private int centros = 0;
     private int vacParcial = 0;
     private int vacCompleta = 0;
-    private List<Centro> centroList = new ArrayList<>();
+    private List<Centro> centroList = new ArrayList();
 
     private static VacInterface instance = new VacInterface();
 
@@ -38,9 +38,19 @@ public class VacInterface {
     }
 
     public int getAvance(){return (int) (avance*100/total);}
+
+    public void setAvance(long avance) {
+        this.avance = avance;
+    }
+
     public void addAvance(){this.avance += 1;}
 
     public int getCobertura() { return (int) (cobertura*100/total); }
+
+    public void setCobertura(long cobertura) {
+        this.cobertura = cobertura;
+    }
+
     public void addCobertura(){this.cobertura += 1;}
 
     public int getCentros() { return centros; }
@@ -53,4 +63,8 @@ public class VacInterface {
 
     public int getVacCompleta() { return vacCompleta; }
     public void addVacCompleta() {this.vacCompleta += 1;}
+
+    public List<Centro> getCentroList() {
+        return centroList;
+    }
 }
