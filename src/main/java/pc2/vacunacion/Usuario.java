@@ -6,9 +6,9 @@ public class Usuario {
 
     public Usuario(String name) {
         this.name = name;
-        var stringBuffer = new StringBuilder(name);
-        stringBuffer.reverse();
-        this.password = stringBuffer.toString();
+        StringBuilder stringBuilder = new StringBuilder(name);
+        stringBuilder.reverse();
+        this.password = stringBuilder.toString();
     }
 
     public String getName() {
@@ -20,7 +20,7 @@ public class Usuario {
     }
 
     public void createCentro(int id){
-        var centro = new Centro(id);
+        Centro centro = new Centro(id);
         VacInterface.getInstance().createCentro(centro);
     }
 

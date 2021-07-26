@@ -16,7 +16,7 @@ class MainTest {
 
     @Test
     public void loginSucessTest(){
-        var login = new Login();
+        Login login = new Login();
         Usuario usuario1 = new Usuario("prueba");
 
         String name = "prueba";
@@ -26,7 +26,7 @@ class MainTest {
 
     @Test
     public void loginFailTest(){
-        var login = new Login();
+        Login login = new Login();
         Usuario usuario1 = new Usuario("prueba");
 
         String name = "pruebafallida";

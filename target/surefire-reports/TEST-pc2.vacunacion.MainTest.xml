@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pc2.vacunacion.MainTest" time="0.511" tests="0" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Documents\_UTEC_2021-1\IngSoftware\PC2\target\test-classes;D:\Documents\_UTEC_2021-1\IngSoftware\PC2\target\classes;C:\Users\Massimo\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Massimo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Massimo\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Massimo\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Massimo\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Massimo\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Massimo\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Massimo\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Massimo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Massimo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Massimo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Massimo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Massimo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Massimo\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Massimo\.m2\repository\org\codehaus\sonar\plugins\sonar-jacoco-plugin\3.2.1\sonar-jacoco-plugin-3.2.1.jar;C:\Users\Massimo\.m2\repository\org\jacoco\org.jacoco.core\0.5.10.201208310627\org.jacoco.core-0.5.10.201208310627.jar;C:\Users\Massimo\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Massimo\.m2\repository\asm\asm-commons\3.3.1\asm-commons-3.3.1.jar;C:\Users\Massimo\.m2\repository\asm\asm-tree\3.3.1\asm-tree-3.3.1.jar;C:\Users\Massimo\.m2\repository\org\jacoco\org.jacoco.agent\0.5.10.201208310627\org.jacoco.agent-0.5.10.201208310627.jar;C:\Users\Massimo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Massimo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Massimo\AppData\Local\Temp\surefire17195589237177609843\surefirebooter12832946622903289272.jar C:\Users\Massimo\AppData\Local\Temp\surefire17195589237177609843 2021-07-26T17-45-28_750-jvmRun1 surefire16693693861100378996tmp surefire_09318606786838566525tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Documents\_UTEC_2021-1\IngSoftware\PC2\target\test-classes;D:\Documents\_UTEC_2021-1\IngSoftware\PC2\target\classes;C:\Users\Massimo\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Massimo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Massimo\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Massimo\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Massimo\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Massimo\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Massimo\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Massimo\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Massimo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Massimo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Massimo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Massimo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Massimo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Massimo\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Massimo\.m2\repository\org\codehaus\sonar\plugins\sonar-jacoco-plugin\3.2.1\sonar-jacoco-plugin-3.2.1.jar;C:\Users\Massimo\.m2\repository\org\jacoco\org.jacoco.core\0.5.10.201208310627\org.jacoco.core-0.5.10.201208310627.jar;C:\Users\Massimo\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Massimo\.m2\repository\asm\asm-commons\3.3.1\asm-commons-3.3.1.jar;C:\Users\Massimo\.m2\repository\asm\asm-tree\3.3.1\asm-tree-3.3.1.jar;C:\Users\Massimo\.m2\repository\org\jacoco\org.jacoco.agent\0.5.10.201208310627\org.jacoco.agent-0.5.10.201208310627.jar;C:\Users\Massimo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Massimo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Massimo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Documents\_UTEC_2021-1\IngSoftware\PC2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Massimo\AppData\Local\Temp\surefire17195589237177609843\surefirebooter12832946622903289272.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9"/>
+    <property name="user.name" value="Massimo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9"/>
+    <property name="localRepository" value="C:\Users\Massimo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Massimo\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="D:\Documents\_UTEC_2021-1\IngSoftware\PC2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Programs\Git\cmd;D:\Programs\Maven\apache-maven-3.8.1\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\nodejs\;C:\Users\Massimo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Massimo\AppData\Local\Programs\Python\Python39\;C:\Users\Massimo\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Massimo\AppData\Local\Programs\Python\Python38-32\;C:\Users\Massimo\AppData\Local\Microsoft\WindowsApps;D:\Programs\CLion 2020.1.2\bin;D:\Programs\Microsoft VS Code\bin;D:\Programs\MinGW\mingw32\bin;D:\Programs\Verilog\iverilog\bin;D:\Programs\Verilog\iverilog\gtkwave\bin;D:\Programs\UTEC\GnuWin32\bin;D:\Programs\Postgres\bin;D:\Programs\DataGrip 2020.2.3\bin;D:\Programs\IntelliJ IDEA 2021.1\bin;C:\Users\Massimo\AppData\Local\atom\bin;C:\Users\Massimo\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.11+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+</testsuite>
