@@ -2,23 +2,21 @@
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
-<span class="nc" id="L7">public class Login {</span>
-<span class="nc" id="L8">    private final List&lt;Usuario&gt; usuarios = new ArrayList();</span>
-<span class="nc" id="L9">    Logger logger = Logger.getLogger(Login.class.getName());</span>
+<span class="fc" id="L6">public class Login {</span>
+<span class="fc" id="L7">    private final List&lt;Usuario&gt; usuarios = new ArrayList();</span>
 
-<span class="nc" id="L11">    public void addUsuario(Usuario usuario) {this.usuarios.add(usuario);}</span>
+<span class="fc" id="L9">    public void addUsuario(Usuario usuario) {this.usuarios.add(usuario);}</span>
 
     public boolean login(String nombre) {
-<span class="nc bnc" id="L14" title="All 2 branches missed.">        for (Usuario usuario : usuarios) {</span>
-<span class="nc bnc" id="L15" title="All 2 branches missed.">            if (nombre.equals(usuario.getName())) {</span>
-<span class="nc" id="L16">                StringBuilder pass = new StringBuilder(nombre);</span>
-<span class="nc" id="L17">                pass.reverse();</span>
-<span class="nc bnc" id="L18" title="All 2 branches missed.">                if(pass.toString().equals(usuario.getPassword())) return true;</span>
+<span class="fc bfc" id="L12" title="All 2 branches covered.">        for (Usuario usuario : usuarios) {</span>
+<span class="fc bfc" id="L13" title="All 2 branches covered.">            if (nombre.equals(usuario.getName())) {</span>
+<span class="fc" id="L14">                StringBuilder pass = new StringBuilder(nombre);</span>
+<span class="fc" id="L15">                pass.reverse();</span>
+<span class="pc bpc" id="L16" title="1 of 2 branches missed.">                if(pass.toString().equals(usuario.getPassword())) return true;</span>
             }
-<span class="nc" id="L20">        }</span>
-<span class="nc" id="L21">        return false;</span>
+<span class="fc" id="L18">        }</span>
+<span class="fc" id="L19">        return false;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

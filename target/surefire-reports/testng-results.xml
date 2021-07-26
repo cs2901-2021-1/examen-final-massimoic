@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-26T17:45:29 COT" name="Surefire suite" finished-at="2021-07-26T17:45:29 COT" duration-ms="83">
+  <suite started-at="2021-07-26T18:27:11 COT" name="Surefire suite" finished-at="2021-07-26T18:27:12 COT" duration-ms="89">
     <groups>
     </groups>
-    <test started-at="2021-07-26T17:45:29 COT" name="Surefire test" finished-at="2021-07-26T17:45:29 COT" duration-ms="83">
+    <test started-at="2021-07-26T18:27:11 COT" name="Surefire test" finished-at="2021-07-26T18:27:12 COT" duration-ms="89">
+      <class name="pc2.vacunacion.MainTest">
+        <test-method signature="usuarioCreateCentroTest()" started-at="2021-07-26T18:27:12 COT" name="usuarioCreateCentroTest" finished-at="2021-07-26T18:27:12 COT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usuarioCreateCentroTest -->
+        <test-method signature="coberturaTest()" started-at="2021-07-26T18:27:12 COT" name="coberturaTest" finished-at="2021-07-26T18:27:12 COT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coberturaTest -->
+        <test-method signature="deleteCentroTest2()" started-at="2021-07-26T18:27:12 COT" name="deleteCentroTest2" finished-at="2021-07-26T18:27:12 COT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCentroTest2 -->
+        <test-method signature="addTests()" started-at="2021-07-26T18:27:12 COT" name="addTests" finished-at="2021-07-26T18:27:12 COT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTests -->
+        <test-method signature="avanceTest()" started-at="2021-07-26T18:27:12 COT" name="avanceTest" finished-at="2021-07-26T18:27:12 COT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avanceTest -->
+        <test-method signature="centroParcialTest()" started-at="2021-07-26T18:27:12 COT" name="centroParcialTest" finished-at="2021-07-26T18:27:12 COT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- centroParcialTest -->
+        <test-method signature="loginSucessTest()" started-at="2021-07-26T18:27:12 COT" name="loginSucessTest" finished-at="2021-07-26T18:27:12 COT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSucessTest -->
+        <test-method signature="loginFailTest()" started-at="2021-07-26T18:27:12 COT" name="loginFailTest" finished-at="2021-07-26T18:27:12 COT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailTest -->
+      </class> <!-- pc2.vacunacion.MainTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

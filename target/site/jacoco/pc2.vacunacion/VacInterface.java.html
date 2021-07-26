@@ -4,54 +4,68 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VacInterface {
-<span class="nc" id="L7">    private static long total = 22935533;</span>
-<span class="nc" id="L8">    private long avance = 0;</span>
-<span class="nc" id="L9">    private long cobertura = 0;</span>
-<span class="nc" id="L10">    private int centros = 0;</span>
-<span class="nc" id="L11">    private int vacParcial = 0;</span>
-<span class="nc" id="L12">    private int vacCompleta = 0;</span>
-<span class="nc" id="L13">    private List&lt;Centro&gt; centroList = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L7">    private static long total = 22935533;</span>
+<span class="fc" id="L8">    private long avance = 0;</span>
+<span class="fc" id="L9">    private long cobertura = 0;</span>
+<span class="fc" id="L10">    private int centros = 0;</span>
+<span class="fc" id="L11">    private int vacParcial = 0;</span>
+<span class="fc" id="L12">    private int vacCompleta = 0;</span>
+<span class="fc" id="L13">    private List&lt;Centro&gt; centroList = new ArrayList();</span>
 
-<span class="nc" id="L15">    private static VacInterface instance = new VacInterface();</span>
+<span class="fc" id="L15">    private static VacInterface instance = new VacInterface();</span>
 
-<span class="nc" id="L17">    private VacInterface(){}</span>
+<span class="fc" id="L17">    private VacInterface(){}</span>
 
     public static VacInterface getInstance(){
-<span class="nc bnc" id="L20" title="All 2 branches missed.">        if(instance == null){</span>
+<span class="pc bpc" id="L20" title="1 of 2 branches missed.">        if(instance == null){</span>
 <span class="nc" id="L21">            instance = new VacInterface();</span>
         }
-<span class="nc" id="L23">        return instance;</span>
+<span class="fc" id="L23">        return instance;</span>
     }
 
     public void createCentro(Centro centro) {
-<span class="nc" id="L27">        centroList.add(centro);</span>
-<span class="nc" id="L28">        addCentro();</span>
-<span class="nc" id="L29">    }</span>
+<span class="fc" id="L27">        centroList.add(centro);</span>
+<span class="fc" id="L28">        addCentro();</span>
+<span class="fc" id="L29">    }</span>
 
     public void deleteCentro(int id) {
-<span class="nc bnc" id="L32" title="All 2 branches missed.">        for(Centro centro: centroList){</span>
-<span class="nc bnc" id="L33" title="All 2 branches missed.">            if(id == centro.getId()){</span>
-<span class="nc" id="L34">                centroList.remove(centro);</span>
-<span class="nc" id="L35">                removeCentro();</span>
+<span class="pc bpc" id="L32" title="1 of 2 branches missed.">        for(Centro centro: centroList){</span>
+<span class="pc bpc" id="L33" title="1 of 2 branches missed.">            if(id == centro.getId()){</span>
+<span class="fc" id="L34">                centroList.remove(centro);</span>
+<span class="fc" id="L35">                removeCentro();</span>
             }
-<span class="nc" id="L37">        }</span>
+<span class="fc" id="L37">        }</span>
 <span class="nc" id="L38">    }</span>
 
-<span class="nc" id="L40">    public int getAvance(){return (int) (avance*100/total);}</span>
-<span class="nc" id="L41">    public void addAvance(){this.avance += 1;}</span>
+<span class="fc" id="L40">    public int getAvance(){return (int) (avance*100/total);}</span>
 
-<span class="nc" id="L43">    public int getCobertura() { return (int) (cobertura*100/total); }</span>
-<span class="nc" id="L44">    public void addCobertura(){this.cobertura += 1;}</span>
+    public void setAvance(long avance) {
+<span class="fc" id="L43">        this.avance = avance;</span>
+<span class="fc" id="L44">    }</span>
 
-<span class="nc" id="L46">    public int getCentros() { return centros; }</span>
-<span class="nc" id="L47">    public void addCentro() {this.centros += 1;}</span>
-<span class="nc" id="L48">    public void removeCentro() {this.centros -= 1;}</span>
+<span class="fc" id="L46">    public void addAvance(){this.avance += 1;}</span>
 
-<span class="nc" id="L50">    public int getVacParcial() { return vacParcial; }</span>
-<span class="nc" id="L51">    public void addVacParcial() {this.vacParcial += 1;}</span>
-<span class="nc" id="L52">    public void removeVacParcial() {this.vacParcial -= 1;}</span>
+<span class="fc" id="L48">    public int getCobertura() { return (int) (cobertura*100/total); }</span>
 
-<span class="nc" id="L54">    public int getVacCompleta() { return vacCompleta; }</span>
-<span class="nc" id="L55">    public void addVacCompleta() {this.vacCompleta += 1;}</span>
+    public void setCobertura(long cobertura) {
+<span class="fc" id="L51">        this.cobertura = cobertura;</span>
+<span class="fc" id="L52">    }</span>
+
+<span class="fc" id="L54">    public void addCobertura(){this.cobertura += 1;}</span>
+
+<span class="fc" id="L56">    public int getCentros() { return centros; }</span>
+<span class="fc" id="L57">    public void addCentro() {this.centros += 1;}</span>
+<span class="fc" id="L58">    public void removeCentro() {this.centros -= 1;}</span>
+
+<span class="fc" id="L60">    public int getVacParcial() { return vacParcial; }</span>
+<span class="fc" id="L61">    public void addVacParcial() {this.vacParcial += 1;}</span>
+<span class="fc" id="L62">    public void removeVacParcial() {this.vacParcial -= 1;}</span>
+
+<span class="fc" id="L64">    public int getVacCompleta() { return vacCompleta; }</span>
+<span class="fc" id="L65">    public void addVacCompleta() {this.vacCompleta += 1;}</span>
+
+    public List&lt;Centro&gt; getCentroList() {
+<span class="fc" id="L68">        return centroList;</span>
+    }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

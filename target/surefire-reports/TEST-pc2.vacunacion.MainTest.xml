@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pc2.vacunacion.MainTest" time="0.511" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pc2.vacunacion.MainTest" time="0.464" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Massimo\AppData\Local\Temp\surefire17195589237177609843\surefirebooter12832946622903289272.jar C:\Users\Massimo\AppData\Local\Temp\surefire17195589237177609843 2021-07-26T17-45-28_750-jvmRun1 surefire16693693861100378996tmp surefire_09318606786838566525tmp"/>
+    <property name="sun.java.command" value="C:\Users\Massimo\AppData\Local\Temp\surefire11724496019951838962\surefirebooter7021793422361113095.jar C:\Users\Massimo\AppData\Local\Temp\surefire11724496019951838962 2021-07-26T18-27-11_050-jvmRun1 surefire406615216406708449tmp surefire_06009066919408618555tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Documents\_UTEC_2021-1\IngSoftware\PC2\target\test-classes;D:\Documents\_UTEC_2021-1\IngSoftware\PC2\target\classes;C:\Users\Massimo\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Massimo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Massimo\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Massimo\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Massimo\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Massimo\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Massimo\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Massimo\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Massimo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Massimo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Massimo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Massimo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Massimo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Massimo\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Massimo\.m2\repository\org\codehaus\sonar\plugins\sonar-jacoco-plugin\3.2.1\sonar-jacoco-plugin-3.2.1.jar;C:\Users\Massimo\.m2\repository\org\jacoco\org.jacoco.core\0.5.10.201208310627\org.jacoco.core-0.5.10.201208310627.jar;C:\Users\Massimo\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Massimo\.m2\repository\asm\asm-commons\3.3.1\asm-commons-3.3.1.jar;C:\Users\Massimo\.m2\repository\asm\asm-tree\3.3.1\asm-tree-3.3.1.jar;C:\Users\Massimo\.m2\repository\org\jacoco\org.jacoco.agent\0.5.10.201208310627\org.jacoco.agent-0.5.10.201208310627.jar;C:\Users\Massimo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Massimo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Massimo\AppData\Local\Temp\surefire17195589237177609843\surefirebooter12832946622903289272.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Massimo\AppData\Local\Temp\surefire11724496019951838962\surefirebooter7021793422361113095.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.11+9"/>
@@ -60,4 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
+  <testcase name="usuarioCreateCentroTest on usuarioCreateCentroTest(pc2.vacunacion.MainTest)" classname="pc2.vacunacion.MainTest" time="0.017"/>
+  <testcase name="avanceTest on avanceTest(pc2.vacunacion.MainTest)" classname="pc2.vacunacion.MainTest" time="0"/>
+  <testcase name="addTests on addTests(pc2.vacunacion.MainTest)" classname="pc2.vacunacion.MainTest" time="0"/>
+  <testcase name="loginSucessTest on loginSucessTest(pc2.vacunacion.MainTest)" classname="pc2.vacunacion.MainTest" time="0"/>
+  <testcase name="loginFailTest on loginFailTest(pc2.vacunacion.MainTest)" classname="pc2.vacunacion.MainTest" time="0"/>
+  <testcase name="coberturaTest on coberturaTest(pc2.vacunacion.MainTest)" classname="pc2.vacunacion.MainTest" time="0"/>
+  <testcase name="deleteCentroTest2 on deleteCentroTest2(pc2.vacunacion.MainTest)" classname="pc2.vacunacion.MainTest" time="0"/>
+  <testcase name="centroParcialTest on centroParcialTest(pc2.vacunacion.MainTest)" classname="pc2.vacunacion.MainTest" time="0"/>
 </testsuite>

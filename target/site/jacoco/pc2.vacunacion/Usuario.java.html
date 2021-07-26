@@ -4,25 +4,25 @@ public class Usuario {
     private final String name;
     private final String password;
 
-<span class="nc" id="L7">    public Usuario(String name) {</span>
-<span class="nc" id="L8">        this.name = name;</span>
-<span class="nc" id="L9">        StringBuilder stringBuilder = new StringBuilder(name);</span>
-<span class="nc" id="L10">        stringBuilder.reverse();</span>
-<span class="nc" id="L11">        this.password = stringBuilder.toString();</span>
-<span class="nc" id="L12">    }</span>
+<span class="fc" id="L7">    public Usuario(String name) {</span>
+<span class="fc" id="L8">        this.name = name;</span>
+<span class="fc" id="L9">        StringBuilder stringBuilder = new StringBuilder(name);</span>
+<span class="fc" id="L10">        stringBuilder.reverse();</span>
+<span class="fc" id="L11">        this.password = stringBuilder.toString();</span>
+<span class="fc" id="L12">    }</span>
 
     public String getName() {
-<span class="nc" id="L15">        return name;</span>
+<span class="fc" id="L15">        return name;</span>
     }
 
     public String getPassword() {
-<span class="nc" id="L19">        return password;</span>
+<span class="fc" id="L19">        return password;</span>
     }
 
     public void createCentro(int id){
-<span class="nc" id="L23">        Centro centro = new Centro(id);</span>
-<span class="nc" id="L24">        VacInterface.getInstance().createCentro(centro);</span>
-<span class="nc" id="L25">    }</span>
+<span class="fc" id="L23">        Centro centro = new Centro(id);</span>
+<span class="fc" id="L24">        VacInterface.getInstance().createCentro(centro);</span>
+<span class="fc" id="L25">    }</span>
 
     public void deleteCentro(int id) {
 <span class="nc" id="L28">        VacInterface.getInstance().deleteCentro(id);</span>
